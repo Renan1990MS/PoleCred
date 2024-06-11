@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+:root{
+    --blue-primary:#1366AA;
+    --yellow-primary: rgb(241, 114, 9);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: var(--blue-primary);
+    height: 80px;
+    padding: 10px 20px;
+}
+.titles-header{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   
+}
+
+#title-header{
+    line-height: 10px;
+    color: var(--yellow-primary);
+    
+}
+
+#sub-title{
+    color: var(--yellow-primary);
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+ul{
+    display:flex;
+    align-items: center;  
+    gap: 30px;
+    list-style: none;  
+}
+
+.link{
+    color: #ffff;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: var(--yellow-primary);
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn{
+    border: 2px solid var(--yellow-primary);
+    padding: 10px;
+    border-radius: 15px;
+    color: #ffff;
+    text-decoration: none;
+    background-color: var(--yellow-primary);
+    cursor: pointer;
+    transition: all 0.5s; 
+    margin-left: 40px;
+    
+}
+
+#inscreva-se-btn:hover{
+    background-color: var(--blue-primary);
+    color: white;
+}
+
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+}
+
+#title-infos{
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--yellow-primary);
+
+}
+
+#title-infos strong{
+    color: var(--blue-primary);
+}
+
+#paragraph-infos{
+    font-weight: normal;
+    color: var(--blue-primary);
+}
+
+img{
+    width: 650px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+
+    
+
+input{
+    
+    height: 20px;
+    padding: 15px 10px;
+    border-radius: 20px;
+    border: 1px solid var(--yellow-primary);
+    font-size: 15px;
+    outline: none;
+    
+}
+
+
+#form-button{
+    width: 100%;
+    height: 40px;
+    background-color: var(--yellow-primary);
+    border-radius: 20px;
+    border: none;
+    color: #ffff;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px #00000056; 
+}
+
+
+footer{
+    Width:100%;
+     Display:flex;
+     Justify-content: center;
+     Align-items: center;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+ }
+
+ #title-footer{
+    color: var(--blue-primary);
+
+ }
+
+#title-footer strong{
+    color: var(--yellow-primary);
+
+}
